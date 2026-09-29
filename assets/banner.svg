@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Visual Sanad</title>
+  <desc id="desc">A decorative banner for a paper auditing VLM false acceptance of Qur'anic citations.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#082032"/>
+      <stop offset="52%" stop-color="#0B3D3A"/>
+      <stop offset="100%" stop-color="#174C3C"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8D77A"/>
+      <stop offset="100%" stop-color="#C99A2E"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="34" fill="url(#bg)"/>
+  <circle cx="1030" cy="70" r="180" fill="#FFFFFF" opacity="0.05"/>
+  <circle cx="142" cy="312" r="220" fill="#FFFFFF" opacity="0.04"/>
+  <g opacity="0.20" stroke="#F8D77A" stroke-width="2" fill="none">
+    <path d="M72 86 C170 34, 252 34, 350 86 S532 138, 630 86 S812 34, 910 86 S1092 138, 1190 86"/>
+    <path d="M72 274 C170 222, 252 222, 350 274 S532 326, 630 274 S812 222, 910 274 S1092 326, 1190 274"/>
+  </g>
+  <g transform="translate(88 72)" filter="url(#shadow)">
+    <rect width="244" height="216" rx="26" fill="#FFFFFF" opacity="0.10" stroke="#F8D77A" stroke-width="2"/>
+    <rect x="34" y="34" width="176" height="120" rx="16" fill="#FFFFFF" opacity="0.13"/>
+    <path d="M64 76 H180 M64 106 H180 M64 136 H150" stroke="url(#gold)" stroke-width="13" stroke-linecap="round"/>
+    <circle cx="178" cy="172" r="28" fill="none" stroke="url(#gold)" stroke-width="10"/>
+    <path d="M197 191 L224 218" stroke="url(#gold)" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <text x="382" y="132" fill="#FFFFFF" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">Visual Sanad</text>
+  <text x="384" y="184" fill="#F8D77A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Auditing VLM false acceptance of Qur'anic citations</text>
+  <text x="386" y="230" fill="#D7EDE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23">citation verification • visual cues • de-biased prompting • multimodal factuality</text>
+  <g transform="translate(386 260)">
+    <rect width="214" height="42" rx="21" fill="#F8D77A" opacity="0.16" stroke="#F8D77A"/>
+    <text x="24" y="28" fill="#F8D77A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">MusiML @ NeurIPS 2026</text>
+  </g>
+</svg>

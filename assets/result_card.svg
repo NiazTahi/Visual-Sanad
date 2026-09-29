@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-labelledby="title desc">
+  <title id="title">Visual Sanad result summary</title>
+  <desc id="desc">Three summary cards describing the main findings.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FBFC"/>
+      <stop offset="100%" stop-color="#EEF7F4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="250" rx="28" fill="#F7FAFC"/>
+  <g transform="translate(36 34)">
+    <rect width="286" height="182" rx="22" fill="url(#card)" stroke="#BCDAD1"/>
+    <text x="24" y="48" fill="#0B3D3A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">False acceptance</text>
+    <text x="24" y="88" fill="#334155" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Some VLMs mark invalid</text>
+    <text x="24" y="114" fill="#334155" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">citations as valid when the</text>
+    <text x="24" y="140" fill="#334155" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">image looks plausible.</text>
+  </g>
+  <g transform="translate(357 34)">
+    <rect width="286" height="182" rx="22" fill="url(#card)" stroke="#BCDAD1"/>
+    <text x="24" y="48" fill="#0B3D3A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">Cue sensitivity</text>
+    <text x="24" y="88" fill="#334155" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Decorative and authority</text>
+    <text x="24" y="114" fill="#334155" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">cues can shift trust in</text>
+    <text x="24" y="140" fill="#334155" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">model-dependent ways.</text>
+  </g>
+  <g transform="translate(678 34)">
+    <rect width="286" height="182" rx="22" fill="url(#card)" stroke="#BCDAD1"/>
+    <text x="24" y="48" fill="#0B3D3A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">Deployment lesson</text>
+    <text x="24" y="88" fill="#334155" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Use retrieval or abstention;</text>
+    <text x="24" y="114" fill="#334155" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">generic visual QA is not</text>
+    <text x="24" y="140" fill="#334155" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">enough for citation checks.</text>
+  </g>
+</svg>

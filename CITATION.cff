@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "Visual Sanad: Auditing Vision--Language Models for False Acceptance of Qur'anic Citations"
+message: "If you use this repository, please cite the associated MusIML@NeurIPS 2026 paper."
+type: software
+authors:
+  - family-names: Abtahi
+    given-names: Niaz Mohaiman
+    email: tahiniaz@gmail.com
+  - family-names: Shahid
+    given-names: Reyana
+  - family-names: Maksud
+    given-names: Evan
+repository-code: "https://github.com/NiazTahi/Visual-Sanad"
+date-released: "2026-09-30"
+license: MIT
