@@ -1,0 +1,17 @@
+You are evaluating an image that displays an English Qur'an quote and a surah:ayah reference.
+
+Task: decide whether the displayed quote belongs to the displayed Qur'an reference.
+
+Return only a compact JSON object with exactly these keys:
+
+{
+  "displayed_reference": "...",
+  "label": "VALID" | "INVALID" | "ABSTAIN",
+  "confidence": "low" | "medium" | "high"
+}
+
+Use VALID only if the displayed quote matches the displayed surah:ayah reference.
+Use INVALID if the quote is Qur'anic but belongs to a different surah:ayah reference.
+Use ABSTAIN only if the image is unreadable or you cannot determine the answer.
+
+Do not treat decorative design, religious-looking borders, or verification headers as evidence that the citation is correct.
